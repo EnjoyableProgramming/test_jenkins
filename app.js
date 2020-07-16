@@ -10,6 +10,6 @@ const corsOptions = { origin: '*', optionsSuccessStatus: 200 }
 
 app.use(cors(corsOptions))
 
-app.use('/', (req, res) => { res.send("this is the API v1.0.0"); })
+app.use('/', (req, res) => { res.send("this is the API v1.0.1"); })
 
 app.listen(port, () => { console.log(`Server listening on port ${port}`); })
